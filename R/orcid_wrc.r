@@ -4,8 +4,8 @@
 #' @export
 #' @examples
 #' \dontrun{
-#' set.seed(wrcorcid())
+#' set.seed(orcid_wrc())
 #' x1 <- rnorm(100)
 #' }
 
-wrcorcid <- function() 0000000311828578
+orcid_wrc <- function() 0000000311828578
