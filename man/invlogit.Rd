@@ -22,5 +22,5 @@ logit_anum <- log(anum/(1 - anum))
 invlogit(logit_anum)
 }
 \seealso{
-\code{\link[cioffihelperfunctions]{logit}}
+\code{\link[chf]{logit}}
 }

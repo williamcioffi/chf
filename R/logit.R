@@ -2,7 +2,7 @@
 #' 
 #' does what you want
 #' 
-#' @seealso \code{\link[cioffihelperfunctions]{invlogit}}
+#' @seealso \code{\link[chf]{invlogit}}
 #' @param p the numeric vector to which the deed is done
 #' @return a numeric vector deed done
 #' @export

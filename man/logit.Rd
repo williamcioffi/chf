@@ -22,5 +22,5 @@ invlogit_anum <- exp(anum) / (exp(anum) + 1)
 logit(invlogit_anum)
 }
 \seealso{
-\code{\link[cioffihelperfunctions]{invlogit}}
+\code{\link[chf]{invlogit}}
 }
