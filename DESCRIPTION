@@ -8,6 +8,6 @@ Description: unincoperated general helper functions; these aren't really for you
 Depends: R (>= 3.4.4)
 License: GPL-3
 Encoding: UTF-8
-URL: https://github.com/williamcioffi/cioffihelperfunctions
-BugReports: https://github.com/williamcioffi/cioffihelperfunctions/issues
+URL: https://github.com/williamcioffi/chf
+BugReports: https://github.com/williamcioffi/chf/issues
 RoxygenNote: 6.1.1
