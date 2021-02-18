@@ -9,9 +9,8 @@
 #' }
 
 orcid_wrc <- function(char = FALSE) {
-  if(char) {
-    "0000000311828578"
-  } else {
-    0000000311828578
-  }
+  out <- "0000000311828578"
+  if(!char) out <- as.numeric(out)
+
+  out
 }
