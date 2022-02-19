@@ -4,7 +4,7 @@
 \alias{orcid_wrc}
 \title{my orcid id e.g. for setting seeds}
 \usage{
-orcid_wrc()
+orcid_wrc(char = FALSE)
 }
 \value{
 numeric representation of my orcid

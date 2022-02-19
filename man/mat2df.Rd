@@ -4,8 +4,13 @@
 \alias{mat2df}
 \title{mat2df}
 \usage{
-mat2df(m, datlabel = "value", symmetrical = TRUE, diag = FALSE,
-  stringsAsFactors = FALSE)
+mat2df(
+  m,
+  datlabel = "value",
+  symmetrical = TRUE,
+  diag = FALSE,
+  stringsAsFactors = FALSE
+)
 }
 \arguments{
 \item{m}{matrix}

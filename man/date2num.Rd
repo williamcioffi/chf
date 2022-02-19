@@ -25,6 +25,7 @@ date2num("1988-03-12 07:00:00", tz = "UTC", format = "\%Y-\%m-\%d \%H:\%M:\%S")
 \seealso{
 \code{\link[base]{as.POSIXct}}
 
-Other date manipulators: \code{\link{num2date}}
+Other date manipulators: 
+\code{\link{num2date}()}
 }
 \concept{date manipulators}
