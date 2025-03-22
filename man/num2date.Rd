@@ -10,6 +10,8 @@ num2date(d, tz = "UTC", origin = "1970-01-01", ...)
 \item{d}{a numeric vector of dates.}
 
 \item{tz, origin}{as expected by \code{\link[base]{as.POSIXct}}.}
+
+\item{...}{any other \code{\link[base]{as.POSIXct}} params}
 }
 \description{
 will convert a numeric vector (seconds since UNIX epoch) using \code{as.POSIXct}.

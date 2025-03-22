@@ -5,6 +5,7 @@
 #' @return another numeric vector of length equal to \code{t1}
 #' @details it rounds up, who cares?
 #' @export
+#' @importFrom utils head
 #' @examples
 #' # consider two vectors
 #' v1 <- seq(1, 11, by = 1)

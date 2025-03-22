@@ -1,10 +1,11 @@
 #' apply Chauvenet's criterion to find outliers
 #'
 #' @param y a numeric vector time series
-#' @param predetermined threshold
+#' @param threshold predetermined
 #' @param na.rm boolean defaults to TRUE for \code{mean} and \code{sd}
 #' @return a list of two vectors: \code{outliers} boolean vector where TRUE is the outliers and \code{crit} which are the critical values.
 #' @export
+#' @importFrom stats pnorm sd
 #' @examples
 #' # make some data
 #' y <- sin(1:100 / pi)

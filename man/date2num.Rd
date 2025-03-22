@@ -9,9 +9,9 @@ date2num(d, tz = "UTC", ...)
 \arguments{
 \item{d}{a character vector of dates}
 
-\item{tz, format}{as expected by \code{\link[base]{as.POSIXct}}.}
+\item{tz}{as expected by \code{\link[base]{as.POSIXct}}.}
 
-\item{...}{any other good stuff you want to pass to \code{as.POSIXct}.}
+\item{...}{any other \code{\link[base]{as.POSIXct}} params}
 }
 \description{
 convert character dates to numeric dates (seconds since UNIX epoch by default).

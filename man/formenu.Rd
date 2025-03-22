@@ -4,9 +4,11 @@
 \alias{formenu}
 \title{tiny function for navigating pages of plots mainly}
 \usage{
-formenu(f = function(i) {
-    print(i)
-})
+formenu(
+  f = function(i) {
+     print(i)
+ }
+)
 }
 \arguments{
 \item{f}{this is the function you want to iterate}

@@ -9,9 +9,9 @@ chau(y, threshold, na.rm = TRUE)
 \arguments{
 \item{y}{a numeric vector time series}
 
-\item{na.rm}{boolean defaults to TRUE for \code{mean} and \code{sd}}
+\item{threshold}{predetermined}
 
-\item{predetermined}{threshold}
+\item{na.rm}{boolean defaults to TRUE for \code{mean} and \code{sd}}
 }
 \value{
 a list of two vectors: \code{outliers} boolean vector where TRUE is the outliers and \code{crit} which are the critical values.

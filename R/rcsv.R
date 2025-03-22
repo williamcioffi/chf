@@ -7,6 +7,7 @@
 #' @param stringsAsFactors default is FALSE. please don't change that. why would you change that?
 #' @details please don't use read_csv or any of that other nonesense, it breaks everyone's code...
 #' @export
+#' @importFrom utils read.table
 #' @examples
 #' # use it just like read.table but without the worry
 #' \dontrun{

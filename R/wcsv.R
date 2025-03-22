@@ -6,6 +6,7 @@
 #' @param row.names defaults to FALSE, because that's usually what i want. not when i'm printing a matrix or something though. but here for tables, yes this is what i want.
 #' @details please don't use write_csv or any of that other nonesense, it breaks everyone's code...
 #' @export
+#' @importFrom utils write.table
 #' @examples
 #' # use it just like write.table but without the worry
 #' \dontrun{
