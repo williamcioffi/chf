@@ -35,8 +35,6 @@ labelgenerator <- function(n, case = c('upper', 'lower')) {
     }
   )
   
-  pool <- LETTERS
-  
   np <- length(pool)
   
   outpool <- vector(length = n)
