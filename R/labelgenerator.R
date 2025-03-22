@@ -39,14 +39,14 @@ labelgenerator <- function(n, case = c('upper', 'lower')) {
   
   np <- length(pool)
   
-  outpool <- vector()
+  outpool <- vector(length = n)
   newpool <- ""
   
   i <- 1
   poolcount <- 1
   count <- 1
   while(count <= n) {
-    outpool <- c(outpool, paste0(newpool[poolcount], pool[i]))
+    outpool[count] <- paste0(newpool[poolcount], pool[i])
     count <- count + 1
     
     if(i %% np == 0) {
