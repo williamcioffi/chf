@@ -44,13 +44,13 @@ labelgenerator <- function(n, case = c('upper', 'lower')) {
   poolcount <- 1
   count <- 1
   while(count <= n) {
-    outpool[count] <- paste0(newpool[poolcount], pool[i])
+    outpool[count] <- paste0(newpool, pool[i])
     count <- count + 1
     
     if(i %% np == 0) {
       i <- 1
       poolcount <- poolcount + 1
-      newpool[poolcount] <- outpool[poolcount - 1]
+      newpool <- outpool[poolcount - 1]
     } else {
       i <- i + 1
     }
