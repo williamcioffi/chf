@@ -22,7 +22,7 @@ change_alpha <- function(col, alpha) {
     stop("change_alpha: must specify at least a color and a desired alpha level")
   }
   
-  if(length(col) %% length(alpha) != 0 & length(alpha) != 1) {
+  if(length(col) %% length(alpha) != 0) {
     stop("change_alpha: alpha must be a multiple of the number of colors")
   }
   
