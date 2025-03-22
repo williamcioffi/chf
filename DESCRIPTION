@@ -1,13 +1,13 @@
 Package: chf 
 Type: Package
 Title: c_ioffi h_elper f_unctions
-Version: 0.0.0.9001
+Version: 0.0.0.9002
 Authors@R: person("William R.", "Cioffi", email = "wrc14@duke.edu", role = c("aut", "cre"), comment = c(ORCID = "000-0003-1182-8578"))
-Date: 2019-09-10
-Description: unincoperated general helper functions; these aren't really for you
-Depends: R (>= 3.4.4)
+Date: 2025-03-21
+Description: unincoperated general helper functions; these aren't really for you.
+Depends: R (>= 3.4.4), jpeg
 License: GPL-3
 Encoding: UTF-8
 URL: https://github.com/williamcioffi/chf
 BugReports: https://github.com/williamcioffi/chf/issues
-RoxygenNote: 7.1.1
+RoxygenNote: 7.3.2
